@@ -1,0 +1,115 @@
+
+body {
+	background-color: #fff;
+	margin:0;
+	font-family: 'Hind', sans-serif;
+	overflow-x: hidden
+
+}
+@font-face{
+	font-family: Biko;
+	src:url(Biko_Bold.otf);
+}
+@font-face{
+	font-family: Helvetica;
+	src:url(HelveticaNeue.ttf);
+}
+.header {
+	text-decoration: none;
+    overflow: hidden;
+    box-shadow: 1px 1px #c6c6c6;
+    height:72px;
+    background-color: #e5e5e5;
+
+}
+
+.header h1{
+	text-decoration: none;
+	font-family: Biko;
+	font-size:36px;
+	float: left;
+	margin-left: 10%;
+	color:#12a89d;
+}
+
+
+.header li a{
+	color: #000;
+	font-weight:lighter;
+	text-decoration: none;
+	padding: 24px;
+	text-align: right;
+}
+
+.header li a:hover{
+	position:inherit;
+	color:#12a89d;
+}
+.header ul{
+	margin-top: 2%;
+	margin-right:15%;
+	float:right;
+}
+
+.header li {
+	display: inline-block;
+}
+
+.header a:visited {
+	color: #000;
+	text-decoration:none;
+}
+
+
+.screenshot {
+ margin-left:8%;
+ margin-top: 2%;
+float:left; 
+height:40%;
+width:30%;	
+} 
+
+.container2 {
+	font-weight:lighter;
+	font-size: 24pt;
+	width:100%;
+	height:auto;
+	padding:1%;
+	text-align: center;
+}
+
+h4{
+	margin:0;
+}
+.container2 a	 {
+	margin-left: 5%;
+	font-size: 14pt;
+	border-style:solid;
+	border-width:2px;
+	border-radius:5px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:50px;
+	padding-left:50px;
+	text-decoration: none;
+	border-color:#12a89d;
+	color:#12a89d;;
+	
+}
+.container2 a:hover	 {
+	font-size: 14pt;
+	border-style:solid;
+	border-width:2px;
+	border-radius:5px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:50px;
+	padding-left:50px;
+	text-decoration: none;
+	border-color:#12a89d;
+	background-color: #12a89d;
+	color:#fff	;;
+	
+}
+
+
