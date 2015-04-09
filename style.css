@@ -14,26 +14,9 @@ body {
 	font-family: Helvetica;
 	src:url(HelveticaNeue.ttf);
 }
-.header {
-	text-decoration: none;
-    overflow: hidden;
-    box-shadow: 1px 1px #c6c6c6;
-    height:72px;
-    background-color: #e5e5e5;
-
-}
-
-.header h1{
-	text-decoration: none;
-	font-family: Biko;
-	font-size:36px;
-	float: left;
-	margin-left: 10%;
-	color:#12a89d;
-}
 
 
-.header li a{
+#top-menu-bar li a{
 	color: #000;
 	font-weight:lighter;
 	text-decoration: none;
@@ -41,35 +24,63 @@ body {
 	text-align: right;
 }
 
-.header li a:hover{
+#top-menu-bar li a:hover{
 	position:inherit;
 	color:#12a89d;
 }
-.header ul{
+#top-menu-bar ul{
 	margin-top: 2%;
 	margin-right:15%;
 	float:right;
 }
 
-.header li {
+#top-menu-bar li {
 	display: inline-block;
 }
 
-.header a:visited {
+#top-menu-bar a:visited {
 	color: #000;
 	text-decoration:none;
+}
+header {
+	overflow-y:hidden;
+	overflow-x:hidden;
+	text-decoration: none;
+
+	box-shadow: 0px 1px #c6c6c6;
+	height:72px;
+	background-color: #e5e5e5;
+
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+}
+
+#top-menu-bar h1{
+	text-decoration: none;
+	font-family: Biko;
+	font-size:36px;
+	float: left;
+	margin-left: 10%;
+	color:#12a89d;
+}
+.content {
+
+    margin-top: 72px;
 }
 
 
 .screenshot {
- margin-left:8%;
- margin-top: 2%;
-float:left; 
-height:40%;
-width:30%;	
+	margin-left:8%;
+	margin-top: 2%;
+	float:left; 
+	height:40%;
+	width:30%;	
 } 
 
 .container2 {
+	position: absolute;
 	font-weight:lighter;
 	font-size: 24pt;
 	width:100%;
@@ -111,5 +122,66 @@ h4{
 	color:#fff	;;
 	
 }
+.container3 a	 {
 
+	font-size: 14pt;
+	border-style:solid;
+	border-width:2px;
+	border-radius:5px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:50px;
+	padding-left:50px;
+	text-decoration: none;
+	border-color:#12a89d;
+	color:#12a89d;;
+	
+}
+.container3 a:hover	 {
+	font-size: 14pt;
+	border-style:solid;
+	border-width:2px;
+	border-radius:5px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:50px;
+	padding-left:50px;
+	text-decoration: none;
+	border-color:#12a89d;
+	background-color: #12a89d;
+	color:#fff	;;
+	
+}
+.container3{
+	font-weight: lighter;
+	font-size: 24pt;
+	height:100%;
+	margin-top: 150px;
+	position: absolute;
+	height:100%;
+	top: 100%;
+	width: 100%;
+	background-color: #e5e5e5;
+}
+.container4{
+	font-weight: lighter;
+	font-size: 24pt;
+	height:100%;
+	margin-top: 150px;
+	position: absolute;
+	height:100%;
+	top: 100%;
+	width: 100%;
 
+}
+.screenshot1 {
+	margin-right:10%;
+	margin-top: 2%;
+	float:right; 
+	height:40%;
+	width:30%;	
+} 
+
+p{
+	margin:0px;
+}
