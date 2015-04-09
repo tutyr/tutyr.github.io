@@ -1,6 +1,6 @@
 
 body {
-	background-color: #fff;
+	background-color: #e5e5e5;
 	margin:0;
 	font-family: 'Hind', sans-serif;
 	overflow-x: hidden
@@ -87,6 +87,8 @@ header {
 	height:auto;
 	padding:1%;
 	text-align: center;
+	background-color: white;
+
 }
 
 h4{
@@ -149,7 +151,7 @@ h4{
 	text-decoration: none;
 	border-color:#12a89d;
 	background-color: #12a89d;
-	color:#fff	;;
+	color:#fff	;
 	
 }
 .container3{
@@ -181,7 +183,21 @@ h4{
 	height:40%;
 	width:30%;	
 } 
-
+#footer {
+     height: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #12a89d;
+  z-index: 150;
+}
+  #footer_push {
+        clear: both;
+        height: 50px;
+      }
+#footer a {
+	text-decoration: none;
+}
 p{
 	margin:0px;
 }
