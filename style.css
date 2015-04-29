@@ -14,7 +14,13 @@ body {
 	font-family: Helvetica;
 	src:url(HelveticaNeue.ttf);
 }
-
+.logo {
+	float:left;
+	width:95px;
+	height:46px;
+	margin-top: 1em;
+	margin-left: 9em;
+}
 
 #top-menu-bar li a{
 	color: #000;
@@ -184,20 +190,90 @@ h4{
 	width:30%;	
 } 
 #footer {
-     height: 50px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  background-color: #12a89d;
-  z-index: 150;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: #12a89d;
+	z-index: 150;
 }
-  #footer_push {
-        clear: both;
-        height: 50px;
-      }
+#footer_push {
+	clear: both;
+	height: 50px;
+}
 #footer a {
 	text-decoration: none;
 }
 p{
 	margin:0px;
+}
+
+#about_body{
+	background-color: white;
+}
+.about{
+	margin-top: 144px;
+	background-color: white;
+	overflow-x: hidden;
+}
+.title {
+	font-weight: lighter;
+	font-size:24pt;
+	text-align: center;
+}
+
+.photo {
+  
+  padding:10px;
+  height:200px;
+  width:200px;
+  margin:4% 3%;
+  border-radius:50%;
+  border-color:black;
+  border-style: solid;
+  overflow:hidden;
+}
+#nathaniel {
+	background:url(nathaniel_photo.png) no-repeat;
+}
+#jean {
+	background:url(jean_photo.png) no-repeat;
+	background-size:130%;
+}
+#evan {
+	background:url(evan_photo.png) no-repeat;
+	background-size:120%;
+}
+#elliot {
+	background:url(elliot_photo.png) no-repeat;
+	background-size:140%;
+}
+#neeharika {
+	background:url(neeharika_photo.png) no-repeat;
+	background-size:120%;
+}
+.description {
+	font-size: 18px;
+	margin-left: 8em;
+	margin-top: 24px;
+	margin-right:10%;
+}
+.person {
+	font-size:18px;
+	margin-left: 3em;
+	margin-right:3em;
+	margin-top: 72px;
+}
+.bottom_row {
+	margin-top: 36px;
+
+}
+.name {
+	color:#12a89d;
+	font-size: 16px;
+	font-weight: bold;
+}
+.role {
+	font-size: 14px;
+	font-weight: bold;
 }
