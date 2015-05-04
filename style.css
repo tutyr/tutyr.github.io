@@ -218,8 +218,13 @@ p{
 }
 .title {
 	font-weight: lighter;
-	font-size:24pt;
-	text-align: center;
+	font-size:18pt;
+	text-align: left;
+	margin-left:9em;
+	margin-right: 15%;
+	line-height: 90%
+
+
 }
 
 .photo {
